@@ -1,0 +1,99 @@
+body{
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif;
+}
+
+.footer{
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: #F55A5A;
+  margin-bottom:45px;
+}
+.logo-img{
+  width: 24px;
+  height: 24px;
+  
+}
+.footer p{
+  font-weight: 500;
+  font-size: 14.5px;
+  
+}
+.card{
+  
+  margin: 40px 0 10px 0;
+  height: 168px;
+  display: flex;
+  gap:19px;
+  color: 
+  #2B283A;
+  
+  padding:0 10px 0 30px;
+  
+
+}
+
+.location--img{
+  width:7px;
+  height: 12px;
+}
+.places-img{
+  max-width: 125px;
+  height: 168px;
+  
+}
+.card--img{
+  -webkit-box-shadow: -1px -1px 1px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: -1px -1px 1px 1px rgba(0,0,0,0.425);
+  box-shadow: -1px -1px 5px 1px rgba(0,0,0,0.35);
+  width:125px;
+  height: 168px;
+  border-radius:5px;
+}
+.place{
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 400;
+  
+}
+
+.place p{
+  margin:0;
+  line-height: 12px;
+}
+.place a{
+  font-size: 7px;
+  color: #918E9B;
+  text-decoration: none;
+  border-bottom: 0.5px solid #918E9B;
+  
+}
+
+.place--name{
+  
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  
+}
+.place--date{
+  margin:0;
+  
+  font-size: 10px;  
+  font-weight: 700;
+  line-height: 13px;
+}
+.place--info{
+  margin-top:9px;
+  font-size: 10px;
+  line-height: 16px;
+}
